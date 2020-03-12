@@ -1,0 +1,14 @@
+{
+  "name": "minecraft-cli",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "bin": {
+    "mccli": "./src/index.js"
+  },
+  "scripts": {
+    "mccli": "node ./src/index.js"
+  },
+  "dependencies": {
+    "yargs": "^15.3.0"
+  }
+}
