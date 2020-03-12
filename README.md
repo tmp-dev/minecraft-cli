@@ -21,3 +21,7 @@ Authentication steps are documented here: https://wiki.vg/Authentication
 ## Technical information
 
 Additional technical information can be found here: https://wiki.vg/Main_Page
+
+## Bukkit API
+
+Unsure how complete this API is: https://bukkit.gamepedia.com/ServerMods_API

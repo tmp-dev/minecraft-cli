@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       102,
       98,
       90,
+      89,
       86,
       82,
       81,
@@ -48,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       67,
       66,
       64,
+      60,
       2
     ],
     "packageRegistryData": [
@@ -55,6 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["axios", "npm:0.19.2"],
             ["yargs", "npm:15.3.0"]
           ],
           "linkType": "SOFT"
@@ -85,6 +88,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-styles", "npm:4.2.1"],
             ["@types/color-name", "npm:1.1.1"],
             ["color-convert", "npm:2.0.1"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["axios", [
+        ["npm:0.19.2", {
+          "packageLocation": "./.yarn/cache/axios-npm-0.19.2-e4e8599895-1.zip/node_modules/axios/",
+          "packageDependencies": [
+            ["axios", "npm:0.19.2"],
+            ["follow-redirects", "npm:1.5.10"]
           ],
           "linkType": "HARD"
         }]
@@ -129,6 +142,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"
         }]
       ]],
+      ["debug", [
+        ["npm:3.1.0", {
+          "packageLocation": "./.yarn/cache/debug-npm-3.1.0-9f0accb99b-1.zip/node_modules/debug/",
+          "packageDependencies": [
+            ["debug", "npm:3.1.0"],
+            ["ms", "npm:2.0.0"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
       ["decamelize", [
         ["npm:1.2.0", {
           "packageLocation": "./.yarn/cache/decamelize-npm-1.2.0-c5a2fdc622-1.zip/node_modules/decamelize/",
@@ -154,6 +177,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["find-up", "npm:4.1.0"],
             ["locate-path", "npm:5.0.0"],
             ["path-exists", "npm:4.0.0"]
+          ],
+          "linkType": "HARD"
+        }]
+      ]],
+      ["follow-redirects", [
+        ["npm:1.5.10", {
+          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.5.10-bde6f43576-1.zip/node_modules/follow-redirects/",
+          "packageDependencies": [
+            ["follow-redirects", "npm:1.5.10"],
+            ["debug", "npm:3.1.0"]
           ],
           "linkType": "HARD"
         }]
@@ -191,9 +224,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["minecraft-cli", "workspace:."],
+            ["axios", "npm:0.19.2"],
             ["yargs", "npm:15.3.0"]
           ],
           "linkType": "SOFT"
+        }]
+      ]],
+      ["ms", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/ms-npm-2.0.0-9e1101a471-1.zip/node_modules/ms/",
+          "packageDependencies": [
+            ["ms", "npm:2.0.0"]
+          ],
+          "linkType": "HARD"
         }]
       ]],
       ["p-limit", [
