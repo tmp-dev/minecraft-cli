@@ -11,6 +11,10 @@ The forgesvc provides all the Minecraft related data. The usage of this API is a
 
 Endpoints are documented here: https://twitchappapi.docs.apiary.io/
 
+## FTB API
+
+Endpoind docomentation here: https://modpacksch.docs.apiary.io/
+
 ## Mojang API
 
 The Mojang API is used for the Client authentication. 
